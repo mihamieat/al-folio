@@ -13,6 +13,8 @@
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
+    <!-- Include lottie-web library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie.min.js"></script>
   </head>
 
   <!-- Body -->
@@ -22,29 +24,7 @@
 
     <!-- Content -->
     <div class="container mt-5" role="main">
-      {% if page.toc and page.toc.sidebar %}
-        {% if page.toc.sidebar == 'right' %}
-          <div class="row">
-            <!-- main content area -->
-            <div class="col-sm-9">{{ content }}</div>
-            <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
-            </div>
-          </div>
-        {% else %}
-          <div class="row">
-            <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
-            </div>
-            <!-- main content area -->
-            <div class="col-sm-9">{{ content }}</div>
-          </div>
-        {% endif %}
-      {% else %}
-        {{ content }}
-      {% endif %}
+      {{ content }}
     </div>
 
     <!-- Footer -->
@@ -74,5 +54,20 @@
     {% include scripts/back_to_top.liquid %}
     {% include scripts/search.liquid %}
     <script src="{{ '/assets/js/shortcut-key.js' | relative_url }}"></script>
+    <!-- Initialize Lottie Animation -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var animation = lottie.loadAnimation({
+          container: document.getElementById('lottie-background'), // the DOM element that will contain the animation
+          renderer: 'svg',
+          loop: true,
+          autoplay: true,
+          path: 'assets/animations/background_animation.json' // the path to your Lottie JSON file
+        });
+        // Adjust playback speed
+        var playbackSpeed = 0.5; // 2.0 means twice the normal speed, 0.5 means half the speed
+        animation.setSpeed(playbackSpeed);
+      });
+    </script>
   </body>
 </html>
