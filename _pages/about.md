@@ -2,24 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Grace in Action, Kindness in Every Step.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    Strasbourg, France 🇫🇷
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a dedicated software engineer with a passion for technology and a diverse range of interests. With a strong foundation in software development, I thrive on solving complex problems and creating innovative solutions that make a difference.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Here, you'll find my resume, detailing my professional journey and the skills I've honed over the years. I believe in continuous learning and staying updated with the latest trends in the tech industry, which is why I often share my thoughts and insights through various blog posts.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+On this site, you'll discover articles covering a wide array of subjects, including in-depth discussions on software development, tips and tricks for photographers, and much more. Whether you're a fellow tech enthusiast, an aspiring photographer, or just curious about the latest in technology, there's something here for you.
+
+Feel free to explore and connect with me. Let's embark on this journey of discovery and innovation together!
+
