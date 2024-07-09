@@ -196,6 +196,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  photography:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
 
 announcements:
   enabled: true
