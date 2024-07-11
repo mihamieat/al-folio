@@ -10,7 +10,6 @@ category: photography
 
 Discover the charm and beauty of Matosinhos through this captivating set of photographs. From the stunning coastline and bustling harbor to the vibrant street art and serene parks, these images capture the essence of this Portuguese gem. Wander through the iconic fish market, admire the modern architecture, and soak in the local culture and traditions. Whether you're reminiscing about your visit or dreaming of your next adventure, let these photos transport you to the heart of Matosinhos.
 
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/matosinhos/376A6952.jpg" title="surfers" class="img-fluid rounded z-depth-1" %}

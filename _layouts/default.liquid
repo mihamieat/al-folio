@@ -56,13 +56,13 @@
     <script src="{{ '/assets/js/shortcut-key.js' | relative_url }}"></script>
     <!-- Initialize Lottie Animation -->
     <script>
-      document.addEventListener("DOMContentLoaded", function() {
+      document.addEventListener('DOMContentLoaded', function () {
         var animation = lottie.loadAnimation({
           container: document.getElementById('lottie-background'), // the DOM element that will contain the animation
           renderer: 'svg',
           loop: true,
           autoplay: true,
-          path: 'assets/animations/background_animation.json' // the path to your Lottie JSON file
+          path: 'assets/animations/background_animation.json', // the path to your Lottie JSON file
         });
         // Adjust playback speed
         var playbackSpeed = 0.5; // 2.0 means twice the normal speed, 0.5 means half the speed

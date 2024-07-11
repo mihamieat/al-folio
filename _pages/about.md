@@ -23,4 +23,3 @@ Here, you'll find my resume, detailing my professional journey and the skills I'
 On this site, you'll discover articles covering a wide array of subjects, including in-depth discussions on software development, tips and tricks for photographers, and much more. Whether you're a fellow tech enthusiast, an aspiring photographer, or just curious about the latest in technology, there's something here for you.
 
 Feel free to explore and connect with me. Let's embark on this journey of discovery and innovation together!
-
