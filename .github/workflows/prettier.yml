@@ -9,6 +9,8 @@ on:
     branches:
       - master
       - main
+      - experiment/change-github-workflow # todo: remove this when merged
+      - develop
 
 jobs:
   check:

@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - main
+      - experiment/change-github-workflow
     paths:
       - "assets/**"
       - "**.bib"
